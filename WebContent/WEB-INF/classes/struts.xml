@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <!-- Ativa o modo de desenvolvimento para facilitar o debug -->
+    <constant name="struts.devMode" value="true" />
+
+<package name="default" namespace="/" extends="struts-default">
+    <!-- Action padrão para requisições sem nome de ação -->
+    <action name="" class="com.mathsena.action.ListBooksAction">
+        <result name="success">/WEB-INF/jsp/listBooks.jsp</result>
+    </action>
+
+    <!-- Action para listar os livros -->
+    <action name="listBooks" class="com.mathsena.action.ListBooksAction">
+        <result name="success">/WEB-INF/jsp/listBooks.jsp</result>
+    </action>
+    
+    <!-- Action para emprestar um livro -->
+    <action name="borrowBook" class="com.mathsena.action.BorrowBookAction">
+        <result name="success">/WEB-INF/jsp/borrowBook.jsp</result>
+    </action>
+    
+    <!-- Action para devolver um livro -->
+    <action name="returnBook" class="com.mathsena.action.ReturnBookAction">
+        <result name="success">/WEB-INF/jsp/returnBook.jsp</result>
+    </action>
+</package>
+
+</struts>
