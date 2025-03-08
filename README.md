@@ -1,7 +1,8 @@
 
 # Sistema de Biblioteca com Struts
 
-Este projeto faz parte dos estudos sobre a tecnologia **Struts 2** e foi desenvolvido como trabalho acadêmico/profissional para entender e aplicar os conceitos dessa estrutura. O sistema simula um ambiente de biblioteca onde é possível listar livros, emprestar e devolver exemplares, utilizando a combinação de JSP, Struts 2, Servlets e Bootstrap para a interface.
+Este projeto faz parte dos estudos sobre a tecnologia **Struts 2** e foi desenvolvido como trabalho acadêmico/profissional para entender e aplicar os conceitos dessa estrutura. 
+O sistema simula um ambiente de biblioteca onde é possível listar livros, emprestar e devolver exemplares, utilizando a combinação de JSP, Struts 2, Servlets e Bootstrap para a interface.
 
 ## Tecnologias Utilizadas
 
@@ -31,7 +32,7 @@ Este projeto faz parte dos estudos sobre a tecnologia **Struts 2** e foi desenvo
 1. **Clone o repositório:**
 
    
-   git clone https://seu-repositorio-url.git
+   git clone https://github.com/MathSena/library-struts.git
    
 
 2. **Importe o projeto na sua IDE:**
@@ -52,11 +53,8 @@ Este projeto faz parte dos estudos sobre a tecnologia **Struts 2** e foi desenvo
 
    Abra o navegador e acesse:
 
+   http://localhost:8080/Library-struts/listBooks.action
    
-   http://localhost:8080/nome-do-contexto
-   
-
-   Onde `nome-do-contexto` é o nome do seu projeto (geralmente definido no arquivo `web.xml` ou pelo nome da pasta/WAR).
 
 ## Estrutura do Projeto
 
@@ -68,4 +66,4 @@ Este projeto faz parte dos estudos sobre a tecnologia **Struts 2** e foi desenvo
 
 ## Considerações Finais
 
-Este projeto foi desenvolvido com foco em aprendizagem e prática com Struts 2 e tecnologias web em Java. Sinta-se à vontade para aprimorar o código, expandir funcionalidades ou adaptar a interface conforme as necessidades do seu trabalho.
+Este projeto foi desenvolvido com foco em aprendizagem e prática com Struts 2 e tecnologias web em Java. 
